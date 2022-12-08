@@ -1,7 +1,0 @@
-DesafioConversao
-apartir do Scanner, você vai pegar 3 Strings usando o nextLine
-essa 3 string vão receber os ultimos salarios de um funcionário
-Deverá calcular a média desses salário
-o funcionario poderá usar a virgula ou ponto para separar as casas decimais
-o programa deverá funcionar tanto com ponto ou virgula
-você vai somar o 3 sálarios e dividir por 3 e mostra a média para o funcionario
