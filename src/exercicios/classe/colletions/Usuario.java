@@ -3,6 +3,16 @@ package exercicios.classe.colletions;
 import java.util.Objects;
 
 public class Usuario {
+
+/*
+    public int hasCode(){
+        final  int prime = 31;
+        int result = 1;
+        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
+        return result;
+    }
+*/
+
 /*    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
