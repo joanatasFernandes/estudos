@@ -21,6 +21,6 @@ public class Pilha {
         System.out.println(livros.pop());
                 
         System.out.println(livros.poll());// retorna null caso a fila esteja vazia.
-        System.out.println(livros.remove());
+       // System.out.println(livros.remove());
     }
 }
