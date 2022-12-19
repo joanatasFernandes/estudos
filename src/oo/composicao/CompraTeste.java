@@ -8,6 +8,7 @@ public class CompraTeste {
         compra.adicionarItem("Caneta",20, 7.45);
         compra.adicionarItem(new Item("Borracha",12, 3.89));
         compra.itens.add(new Item("Caderno",3, 18.79));
+        compra.itens.add(new Item("Caderno",4, 19.79));
 
         System.out.println(compra.itens.size());
         System.out.println(compra.getValorTotal());
