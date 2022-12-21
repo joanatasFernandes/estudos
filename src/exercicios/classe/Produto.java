@@ -1,4 +1,4 @@
-package classe;
+package exercicios.classe;
 
 import java.util.List;
 

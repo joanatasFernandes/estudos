@@ -1,4 +1,4 @@
-package classe;
+package exercicios.classe;
 
 public class ProdutoTeste {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class ProdutoTeste {
 		p1.desconto = 0.25;*/
 		Produto caneta = new Produto("Caneta Preta", 10.98);
 		Produto notebook = new Produto("Notebook", 1698.99);// forma de instaciar um objeto
-		Produto tablete = new Produto("Tablet", 198.90);// nova instância de um objeto
+		Produto tablete = new Produto("Tablet", 198.90);// nova instï¿½ncia de um objeto
 			
 		
 		
@@ -31,6 +31,6 @@ public class ProdutoTeste {
 		double precoFinal1 =  caneta.precoComDesconto();
 		double  precoFinal2 = p2.precoComDesconto(2);
 		double mediaCarrinho = (precoFinal1 + precoFinal2) /2;
-		System.out.printf("Média do carrinho = R$%.2f", mediaCarrinho);
+		System.out.printf("MÃ©dia do carrinho = R$%.2f", mediaCarrinho);
 	}
 }
