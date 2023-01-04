@@ -1,4 +1,4 @@
-package tela;
+package clinica.src.tela;
 
 public class TelaAgendamento {
 
