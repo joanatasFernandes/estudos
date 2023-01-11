@@ -18,9 +18,13 @@ public class CarroTeste {
         carro.frear();
         System.out.println(carro);
 
-        ferrari.acelerar();
-        System.out.println(ferrari);
-        ferrari.frear();
+        //
+        Ferrari c2 = new Ferrari();
+        c2.acelerar();
+        c2.ligarTurbo();
+        System.out.println(c2);
+        System.out.println();
+        //ferrari.frear();
         System.out.println(ferrari);
     }
 }
