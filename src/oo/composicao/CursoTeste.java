@@ -19,9 +19,7 @@ public class CursoTeste {
         curso3.adicionarAlunos(aluno2);
         curso3.adicionarAlunos(aluno3);
 
-
-
-        for(Aluno aluno: curso3.alunos){
+        for (Aluno aluno : curso3.alunos) {
             System.out.println("Estou matriculado no curso..." + curso3.nome + "...");
             System.out.println("...E o meu nome é " + aluno.nome);
             System.out.println();
@@ -30,11 +28,9 @@ public class CursoTeste {
 
         Curso cursoEncontrado = aluno1.obterCursoPorNome("Ciencias da computação");
 
-        if (cursoEncontrado != null){
+        if (cursoEncontrado != null) {
             System.out.println(cursoEncontrado.nome);
             System.out.println(cursoEncontrado.alunos);
         }
     }
-
-    
 }

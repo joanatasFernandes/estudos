@@ -8,17 +8,18 @@ public class Cliente {
     final List<Compra> compras = new ArrayList<>();
 
 
-    Cliente (String nome){
+    Cliente(String nome) {
         this.nome = nome;
     }
 
-    void adicionaCompra(Compra compra){
+    void adicionaCompra(Compra compra) {
         this.compras.add(compra);
     }
-     double obterValorTotal(){
+
+    double obterValorTotal() {
         double total = 0;
 
-        for (Compra compra : compras){
+        for (Compra compra : compras) {
             total += compra.obterValorTotal();
         }
 
